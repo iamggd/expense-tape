@@ -4,11 +4,21 @@ A single-file running-tape expense calculator for keeping BDT and USD expenses s
 
 ## Live demo
 
-[Open Expense Tape](https://YOUR_USERNAME.github.io/expense-tape/)
+[Open Expense Tape](https://iamggd.github.io/expense-tape/)
 
-The live demo URL is a placeholder and should be updated after deployment.
+## Screenshots
 
-![Expense Tape screenshot](screenshot.png)
+### Empty Expense Tape interface
+
+![Empty Expense Tape interface](docs/screenshots/empty-interface.png)
+
+### Five USD entries totaling $15.00
+
+![Expense Tape with five USD entries totaling $15.00](docs/screenshots/five-usd-entries-total-15.png)
+
+### Generated PDF export
+
+![Generated Expense Tape PDF export](docs/screenshots/generated-pdf-export.png)
 
 ## Features
 
@@ -45,7 +55,7 @@ No build step, backend, package manager, or server is required for local use.
 3. Select **Pages** under **Code and automation**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select the branch containing `index.html` and the `/ (root)` folder, then save.
-6. After GitHub Pages finishes deploying, replace the placeholder live demo URL above with the repository's Pages URL.
+6. After GitHub Pages finishes deploying, verify the live demo URL above matches the repository's Pages URL.
 
 ## How it works
 
